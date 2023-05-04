@@ -1,4 +1,4 @@
-const WAYWAY_CACHE_CACHE = "wayway-cache";
+const WAYWAY_CACHE = "wayway-cache";
 
 self.addEventListener("activate", function (event) {
   console.log("ServiceWorker activated.");
@@ -12,4 +12,4 @@ self.addEventListener("install", function (event) {
   );
 });
 
-self.addEventListener("fetch", (e) => {});
+self.addEventListener("fetch", (e) => { });
