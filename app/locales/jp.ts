@@ -2,7 +2,7 @@ import { SubmitKey } from "../store/config";
 import type { LocaleType } from "./index";
 
 const jp: LocaleType = {
-  WIP: "この機能は開発中です……",
+  WIP: "この機能は開発中です…",
   Error: {
     Unauthorized:
       "現在は未承認状態です。左下の設定ボタンをクリックし、アクセスパスワードを入力してください。",
